@@ -1,6 +1,6 @@
 //
 //  PFQuery+Unique.m
-//  Selfie
+//  
 //
 //  Created by Subash Luitel on 2/20/15.
 //  Copyright (c) 2015 Subash Luitel. All rights reserved.

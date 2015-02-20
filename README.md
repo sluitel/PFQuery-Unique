@@ -4,10 +4,13 @@
 With this your query result will have distinct values for a particular key. This doesnot work for keys whose values are pointers or relations.
 
 ## Installation
-Just Copy PFQuery_Unique.h and PFQuery_Unique.m files to your project.
+Copy PFQuery+Unique.h and PFQuery+Unique.m files to your project.
 
 ## Usage
 	PFQuery *query = [PFQuery queryWithClassName:@"YourClassName"];
-	[unDeletedImageQuery findUniqueObjectsWithKey:@"yourKey" completionBlock:^(NSArray *objects, NSError *error) {
+	[query findUniqueObjectsWithKey:@"yourKey" completionBlock:^(NSArray *objects, NSError *error) {
 		
 	}];
+
+## License
+This is available under the MIT license. See the LICENSE.txt file for more info.
